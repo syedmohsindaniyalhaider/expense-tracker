@@ -8,6 +8,7 @@ import ContextProvider from "./store/ContextProvider";
 function App() {
   return (
     <ContextProvider>
+      <p>Helping Tracker</p>
       <h2>Expense Tracker</h2>
       <div className="container">
         <Balance />
